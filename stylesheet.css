@@ -1,0 +1,130 @@
+#myBooks {
+  text-align: center;
+}
+
+h3 {
+  text-align: left;
+}
+
+hr {
+  border-top: 1px solid black;
+  margin: 50px;
+}
+
+h1, form {
+  font-family: "Open Sans", system-ui;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+h2, .h2 {
+  font-family: "Open Sans", system-ui;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.identifier {
+  font-family: "Open Sans", system-ui;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 17px;
+  font-variation-settings: "wdth" 100;
+}
+
+.title {
+  font-family: "Open Sans", system-ui;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 17px;
+  font-variation-settings: "wdth" 100;
+}
+
+.author, .description, label {
+  font-family: "Open Sans", system-ui;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 17px;
+  font-variation-settings: "wdth" 100;
+}
+
+.rowBooks, .rowBooksSess {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  gap: 30px;
+}
+
+img {
+  min-height: 225px;
+  padding-top: 10px;
+}
+
+.imgNf {
+  width: 150px;
+  height: 40px;
+  padding-top: 10px;
+}
+
+.fa-solid.fa-bookmark {
+  float: right;
+  color: #469488;
+}
+
+.fa-regular.fa-trash-can {
+  float: right;
+}
+
+.titles {
+  background-color: #eff0f3;
+  text-align: center;
+  padding: 20px;
+  margin: 50px;
+  border-bottom: 3px solid #c3c3c3;
+}
+
+.button {
+  padding-top: 30px;
+}
+
+.rech {
+  padding-bottom: 50px;
+}
+
+.formulaire {
+  text-align: left;
+  margin: 0 50px;
+}
+
+input {
+  width: 100%;
+}
+
+button {
+  width: 240px;
+  height: 50px;
+  background-color: #469488;
+  border: none;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.annuler {
+  background-color: #df594b;
+}
+
+.book {
+  background-color: #e1e0e0;
+  border: 1px solid black;
+  flex-basis: 48%;
+  padding: 20px;
+}
+
+@media (width < 768px) {
+  .book {
+    flex-basis: 100%;
+  }
+}/*# sourceMappingURL=stylesheet.css.map */

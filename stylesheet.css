@@ -94,7 +94,6 @@ img {
 }
 
 .formulaire {
-  text-align: left;
   margin: 0 50px;
 }
 
@@ -126,5 +125,11 @@ button {
 @media (width < 768px) {
   .book {
     flex-basis: 100%;
+  }
+}
+@media (width > 1400px) {
+  .formulaire {
+    margin: 0 50px;
+    text-align: left;
   }
 }/*# sourceMappingURL=stylesheet.css.map */
